@@ -1,0 +1,230 @@
+/* ================== body ================ */
+
+body {        
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    background-color: wheat;
+    line-height: 2.5em;
+}
+
+/* =============== navbar =============== */
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 36px;
+    padding: 10px; 
+}
+
+.nav i.fa {
+    margin: 9px;
+}
+
+/* =============== header//footer sections ============= */
+
+header {    
+    text-align: center;
+    margin: 0;
+    width: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+header .shadow {
+    background-color: wheat;
+    width: 800px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.myPhoto img {
+    width: 200px;
+    /* border-radius: 50%; */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    margin-top: 30px;
+}
+
+.infoText p {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    margin-top: 40px;
+    font-weight: 200px;    
+}
+
+.backgrundImage {
+    background-image: url("images/Clot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 40px;
+    color: black;
+}
+
+#footer {
+    color: wheat;
+}
+
+/* =============== sections-general =============== */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    width: auto;
+    padding: 60px;
+}
+
+.sectionHeads {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.sectionLeft,
+.sectionRight {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+/* =============== skills section =============== */
+
+.skillsLogo {
+    flex-basis: 1;
+    padding: 30px;
+}
+
+figcaption {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+progress {
+    width: 350px;
+    height: 30px;    
+}
+
+/* =============== links =============== */
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: #154360;
+}
+
+a h3 {
+    font-size: 14px;
+}
+
+/* =============== hover =============== */
+
+span:hover + div.hidden {
+    display: block;
+}
+
+a:hover,
+section img:hover {
+    color: #0ddce7;
+    text-shadow: 10px 15px 14px #000;
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 40px;    
+}
+
+/* =============== icons =============== */
+
+i.fa {
+    font-size: 60px;
+    margin-left: 30px;
+    text-shadow: 6px 5px 12px #000;
+}
+
+.fa-address-card {
+    margin-top: 250px;
+    color: #154360;
+}
+
+.fa-map-marker {
+    color: #A93226;
+}
+
+.fa-phone-square {
+    color: #145A32;
+    margin-right: 20px;
+}
+
+.fa-envelope {
+    color: #7D6608;
+}
+
+.fa-university {
+    color: #641E16;
+}
+
+.nav .fa-university {
+    color: #154360;
+}
+
+.fa-briefcase {
+    color: #212F3C;
+}
+
+.fa-twitter-square {
+    color: rgb(16, 145, 231);
+}
+
+.fa-facebook-square {
+    color: rgb(9, 80, 231);
+}
+
+.fa-download {
+    color: #AEB6BF;
+}
+
+/* =============== hiddens =============== */
+
+.hidden {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    color: white;
+}
+
+/* =============== others =============== */
+
+h1,
+.sectionHeads {
+    font-size: 56px;    
+}
+
+h2 {
+    font-size: 46px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 34px;
+    font-weight: 200;
+}
+
+p,
+li {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+}

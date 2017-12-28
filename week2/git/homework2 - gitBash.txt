@@ -1,0 +1,176 @@
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~
+$ cd Desktop
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop
+$ ls
+'CV- Mahmut Kaya.docx'  'New Text Document.txt'
+desktop.ini             'web training'/
+'emre abi'/             Web.Developer.Course.2.0.2016_om/
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop
+$ cd 'web training'
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training
+$ cd hackyourfuture
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture
+$ ls
+Git-2.10.2-64-bit.exe*  SlackSetup.exe*  test/  week1/  week2/
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture
+$ cd week2
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2
+$ ls
+homework2.html  images/  style.css
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2
+$ mkdir git
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2
+$ cd git
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ touch blank
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ ls
+blank
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" > greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ ls
+blank  greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat greetings.txt
+Hello
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" >> greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" >> greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" >> greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" >> greetings.txt\
+> ^C
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "Hello" >> greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat greetings.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt > 1.txt
+cp: missing destination file operand after 'greetings.txt'
+Try 'cp --help' for more information.
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt >> 1.txt
+cp: missing destination file operand after 'greetings.txt'
+Try 'cp --help' for more information.
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt 1.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ ls
+1.txt  blank  greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat 1.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt 2.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt 3.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt 4.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cp greetings.txt 5.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat 5.txt
+Hello
+Hello
+Hello
+Hello
+Hello
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "cat" > pets.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "dog" >> pets.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "hamster" >> pets.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat pets.txt
+cat
+dog
+hamster
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "cat" > commands.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "ls" >> commands.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "pwd" >> commands.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat commands.txt
+cat
+ls
+pwd
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ sort pets.txt commands.txt | uniq -id
+cat
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ echo "cat" > lovelyCommands.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ ls
+1.txt  3.txt  5.txt  commands.txt   lovelyCommands.txt
+2.txt  4.txt  blank  greetings.txt  pets.txt
+
+bajari@DESKTOP-7ENBEG5 MINGW64 ~/Desktop/web training/hackyourfuture/week2/git
+$ cat lovelyCommands.txt
+cat

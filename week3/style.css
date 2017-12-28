@@ -1,0 +1,341 @@
+/* ================ general settings ================ */
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+p, span, button {font-size: 1.2em;}
+
+li {list-style: none;}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 143, 216);
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.10);
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+/* ================ header ================ */
+header {
+    background: #d6eaf8;
+    background: linear-gradient(#d6eaf8, white);
+}
+
+.headerTop {
+    top: 0;
+    background: #fa9b0c;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.headerTop img {
+    width: 90px;
+    float: left;
+    margin: 1% 10%;
+}
+
+.headerTop ul {
+    float: right;
+    margin-right: 10%;
+}
+
+.headerTop ul li {
+    
+    display: inline;
+    padding: 16px;
+    border-left: 1px solid rgb(226, 135, 30);
+}
+
+.headerTop ul li:nth-child(2) {
+    border-right: 1px solid rgb(226, 135, 30);
+}
+
+/* ================ header bottom ================ */
+.headerBottom {
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+
+.backImg {
+    z-index: 1;
+    position: absolute;
+    width: 80%;
+}
+
+.order-1,
+.order-3,
+.headerBottom p {
+    z-index: 2;
+}
+
+.order-1 {order: 1;}
+.order-3 {
+    order: 3;
+    width: 80%;
+}
+
+.headerBottom p {
+    order: 2;
+    font-size: 2.3em;
+    color: rgb(117, 36, 4)
+}
+
+/* ================ header-nav ================ */
+.nav {
+    margin: auto;
+    padding: 2%;
+    background: #F39C12;
+    width: 80%;
+}
+
+.navHead,
+form {
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.navHead {font-size: 1.5em;}
+
+.navHead span {
+    margin-right: 3%;
+    font-size: .7em;
+    color: white;
+    font-weight: 600;
+}
+
+.navHead span:nth-child(1){
+    border-radius: 3px;
+    color: black;
+    background: #F8C471;
+    padding: 1.2%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+input,
+select {
+    font-size: 1.2em;
+    padding: 1%;
+    border:none;
+}
+
+select {height: 100%;}
+
+input {width: 20rem;}
+
+.selectKm select {
+    width: 5rem;
+    margin-left: 1%;
+    margin-right: 2rem;
+    /* margin-right: 30px; */
+}
+
+.mobiSelect select {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+form label {
+    background: white;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    color: #B2BABB;
+}
+
+.zoekenLinks a {margin-right: 3%;}
+.zoekenLinks {
+    margin: 1% 12%;
+    width: 100%;
+}
+
+/* ================ main-container ================ */
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.imageBanner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;    
+    padding: 10%;
+    background: rgba(0, 0, 0,.4);
+    color: white;
+}
+
+.imageBanner button {color: white;}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.row-bottom button {margin: auto;}
+
+.row-bottom .col-4 .box {
+    background: rgb(183, 219, 243);
+    padding: 2%;
+    text-align: center;
+}
+
+.row-bottom .col-8 img {width: 50%;}
+.row-bottom .col-8 a {color:white;}
+.row-bottom .col-8 .box {
+    background: rgb(71, 140, 231);
+    padding: 4%;
+    text-align: center;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-4-li p {font-size: 1.2em;}
+.col-4-li li {border-bottom: 1px solid black;}
+.col-4-li {
+    margin: 6% auto;
+    line-height: 1;
+}
+
+.col-4:nth-child(3) {margin-top: 85px;}
+.col-4 li img {
+    float: left;
+    margin-right: 3%;
+}
+
+.col-8-1 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.col-8 .boxImg img {
+    position: absolute;
+    width: 50%;
+    z-index: -1;
+}
+
+.box {margin: 16px;}
+.boxImg img {
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .5);
+}
+
+/* ================== footer ================== */
+footer {
+    background-color: #e3e8ee;
+    padding-left: 10%;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h1 {
+    color: #313233;
+    font-size: 1.2em;
+}
+
+footer ul {
+    text-align: left;
+    padding-left: 0;
+    margin: auto;
+}
+
+.footerRowBottom {
+    margin-top: 4%;
+    border-top: 1px solid white;
+    padding: 1%;
+}
+
+/* ===================mobil=================== */
+@media screen and (max-width: 640px) {
+
+    p,
+    span,
+    button,
+    h1 {font-size: 1em;}
+    
+    .col-8,
+    .col-6,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col-1 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .box,
+    .nav {
+        width: 100%;
+        display: block;
+    }
+
+    .headerTop ul li {display: none;}
+    .headerBottom p {font-size: 1.3em;}
+
+    .order-1{display: none;}
+
+    form {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        flex-flow: row wrap;
+        align-content: space-between;
+    }
+
+    input,
+    select,
+    form label {
+        font-size: 1em;
+        padding: 1%;
+        margin-top: 14px;
+        height: 50px;
+    }
+
+    .selectKm select {
+        width: 60px;
+        height: 57px;
+    }
+
+    input {width: 210px;}
+    .mobiSelect select {width: 230px;}
+    form label {height: 43px;}
+    form button {width: 90%; margin-top: 10px;}
+
+    .mobiFoot {width: 50%;}
+
+}
